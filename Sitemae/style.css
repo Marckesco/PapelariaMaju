@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(183, 227, 255, 0.76);
+}
+
+header #header{
+    font: bolder 50pt Corsiva;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    user-select: none;
+
+    color: rgb(86, 187, 255);
+}
+
+#ImgMenu{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+
+    right: 150px;
+}
+
+.imgMenu{
+    cursor: pointer;
+    height: 40px;
+}
+
+.imgMenu:hover{
+    filter: drop-shadow(1px 1px 5px rgba(46, 144, 209, 0.616));
+}
+
+#MenuNavegação{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 0rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 10pt;
+    margin: 20px;
+
+    background-color: rgb(86, 187, 255);
+
+    font: normal 15pt Corsiva;
+    color: white;
+
+}
+
+#MenuNavegação .primeiro{
+    border-right: none;
+}
+
+#MenuNavegação .ultimo{
+    border-right: solid 2pt rgb(46, 144, 209);
+}
+
+#MenuNavegação li{
+    
+    border-left: solid 2pt rgb(46, 144, 209);
+
+    padding: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    cursor: pointer;
+
+}
+
+#MenuNavegação li:hover{
+    background-color: rgb(46, 144, 209);
+}
+
+
+#Carrossel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+#carouselExampleIndicators{
+    height: 504px;
+    width: 1500px;
+
+}
+
+#carouselExampleIndicators .carousel-item{
+    height: 500px;
+}
+
+#carouselExampleIndicators .d-block{
+    height: 500px;
+}
+
+
+#carouselExampleIndicators .carousel-caption{
+    font: normal 15pt arial;
+
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+
+    left: 500px;
+    right: 500px;
+
+    cursor: default;
+}
+
+#carouselExampleIndicators .carousel-caption h5{
+    font: bolder 15pt arial;
+}
+
+.carousel-control-next:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.carousel-control-prev:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+
+/* PRODUTOS */
+
+main{
+    margin-top: 50px;
+
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+  }
+
+
+.product-card:hover{
+    border: 1px solid rgb(86, 187, 255);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.product-name {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+
+    color: rgb(46, 144, 209);
+  }
+
+.product-price {
+    color: #28a745;
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+
+.col-spacing {
+    padding: 0 15px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+
+
+    font: bold 50pt;
+    color: rgb(46, 144, 209);
+}
+
+
+  #rodapé{
+    background-color: rgb(86, 187, 255);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+    padding-top: 40px;
+    margin-top: 500px;
+    height: 100px;
+
+  }
