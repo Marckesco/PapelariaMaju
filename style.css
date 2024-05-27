@@ -192,13 +192,13 @@ h2{
   #rodapé{
     background-color: rgb(86, 187, 255);
 
-    display: flex;
+    display: list-item;
     text-align: center;
     justify-content: center;
 
 
     padding-top: 40px;
     margin-top: 500px;
-    height: 100px;
+    height: 180px;
 
   }
